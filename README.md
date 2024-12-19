@@ -36,10 +36,11 @@ Follow these steps to set up the project locally:
    ```bash
    pipenv shell
    ```
+4. Copy the **app/.env.example** file to **app/.env** and update the values as needed
 
-4. Run the application:
+5. Run the application:
    ```bash
-   pipenv run chainlit run main.py
+   cd app && pipenv run chainlit run main.py
    ```
 
 ## Usage
