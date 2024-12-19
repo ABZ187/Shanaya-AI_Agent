@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+chainlit = "*"
+python-dotenv = "*"
+pydantic = "==2.10.1"
+google-auth = "*"
+google-auth-oauthlib = "*"
+google-api-python-client = "*"
+langchain-google-genai = "*"
+langchain-community = "*"
+langgraph = "*"
+ipython = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
